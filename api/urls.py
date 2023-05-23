@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('transport/', views.transport_view, name='transport'),
+    path('epcis/', views.transport_view, name='transport'),
 ]
